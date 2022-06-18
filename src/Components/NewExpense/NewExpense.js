@@ -7,6 +7,7 @@ function NewExpense(props) {
       ...enteredExpenseData,
       id: Math.random().toString(),
     };
+    //Passing data up to App.js
     props.onAddExpense(expenseData);
   }
 
